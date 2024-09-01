@@ -36,10 +36,16 @@ button {
   border-radius: 3px;
   background-color: #f9f9f9;
   cursor: pointer;
+  transition: transform 0.3s, box-shadow 0.3s;
+  position: relative;
 }
 
 #clear {
   color: black;
   border-radius: 3px;
 }
-button:hover {background-color: #e7e7e7;}
+button:hover {
+  background-color: #e7e7e7;
+  transform: translateZ(10px) scale(1.1); /* Brings the button forward and slightly enlarges it */
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); 
+}
