@@ -32,7 +32,7 @@ buttons.forEach((button) => {
   button.addEventListener("click", e => {
     const value = e.target.innerText;
 
-    if (value === "C") {
+    if (value === "AC") {
       firstNum = "";
       secondNum = "";
       currentOperator = "";
