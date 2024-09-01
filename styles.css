@@ -9,6 +9,7 @@ body {
   border: 1px solid #ccc;
   border-radius: 5px;
   padding: 10px;
+  background-color: white;
 }
 
 .display {
@@ -38,6 +39,7 @@ button {
 }
 
 #clear {
-  background-color: #f9f9f9;
   color: black;
+  border-radius: 3px;
 }
+button:hover {background-color: #e7e7e7;}
